@@ -12,7 +12,7 @@ Nationality: Georgian
 Marital status: Married
 
 
-## Contact info
+## Contact information
 
 Email: makhomakharadze@gmail.com
 
