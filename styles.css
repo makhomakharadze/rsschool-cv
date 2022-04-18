@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 89%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7em;
+}
+
+
+main {
+    background-color: rgb(161, 166, 172);
+    height: 100%
+}
+
+header {
+    background-color: rgba(89, 209, 159, 0.253);
+    height: 70px;
+    border-radius: 2px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(89, 209, 159, 0.253);
+}
+
+.title {
+    padding-top: 16px; 
+}
+
+.prof-picture {
+    display: flex;
+    border-radius: 2px;
+}
+.black-color {
+    color:black;
+}
+
+.prof-picture img {
+    width: 180px;
+    height: 220px;
+    border-radius: 30px;
+    
+}
+
+.personal-info {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(89, 209, 159, 0.253);
+    border-radius: 2px; 
+
+}
+
+.personal-info ul {
+    list-style: none;
+  
+}
+
+
+.personal-info ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.contact-info {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(189, 201, 214);
+    border-radius: 2px; 
+
+}
+
+.contact-info ul {
+    list-style: none;
+  
+}
+
+.contact-info ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.education {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(89, 209, 159, 0.253);
+    border-radius: 2px; 
+
+}
+
+.education ul {
+    list-style: none;
+  
+}
+
+.education ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.skills {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(189, 201, 214);
+    border-radius: 2px; 
+
+}
+
+.skills ul {
+    list-style: none;
+    
+}
+
+.skills ul li {
+    
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.work-experience {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(89, 209, 159, 0.253);
+    border-radius: 2px; 
+
+}
+
+.work-experience ul {
+    list-style: none;
+  
+}
+
+.eduwork-experiencecation ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.languages {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(189, 201, 214);
+    border-radius: 2px; 
+
+}
+
+.languages ul {
+    list-style: none;
+  
+}
+
+.languages ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}   
+
+.code-example {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(89, 209, 159, 0.253);
+    padding: 20px;
+}
+
+.code-example img {
+    display: flex;
+    width: 300px;
+    margin-left: 10%;
+    padding: 10px 0 20px 0;
+}
+
+.projects-example {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(189, 201, 214);
+    border-radius: 2px; 
+    position: relative;
+}
+
+
+.projects-example a {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 9%;
+}
+
+
+.about-me {
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(89, 209, 159, 0.253);
+    border-radius: 2px; 
+}
+
+.about-me p {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 9%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    background-color: rgba(89, 209, 159, 0.253);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.course-logo {
+    display: flex;
+}
+
+.course-logo img {
+    padding-top: 9px;
+    width: 27px;
+    height: 34px;
+}
+
+.date-time {
+
+    display: flex;
+    justify-content: center
+}
+
+.fab fa-github {
+    width: 37px;
+    height: 44px;
+}
+
+.fab, .far {
+    font-weight: 400; 
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-left: 200px;
+    width: auto;
+}
+
+.github {
+    display: flex;
+}
