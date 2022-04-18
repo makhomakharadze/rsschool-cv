@@ -258,10 +258,7 @@ nav {
     justify-content: center
 }
 
-.fab fa-github {
-    width: 37px;
-    height: 44px;
-}
+
 
 .fab, .far {
     font-weight: 400; 
@@ -274,4 +271,9 @@ nav {
 }
 .github {
     display: flex;
+}
+
+.fab fa-github {
+    width: 37px;
+    height: 44px;
 }
